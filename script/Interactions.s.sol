@@ -29,7 +29,7 @@ contract WithdrawFundMe is Script {
         vm.startBroadcast();
         FundMe(payable(mostRecentlyDeployed)).withdraw();
         vm.stopBroadcast();
-        console.log("Withdraw FundMe balance!");
+        console.log("Withdraw FundMe balance !");
     }
 
     function run() external {
